@@ -1,0 +1,87 @@
+.profileContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+}
+
+.profileBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(133, 133, 133);
+    height: 35vh;
+    width: 30vw;
+    border-radius: 9px;
+}
+
+.profileBox .errors{
+    border:0;
+}
+.profileBox div {
+    position: relative;
+    top: -20px
+}
+
+.profileBox label {
+    display: block;
+    font-weight: 700;
+}
+
+.profileBox input {
+    width: 80%;
+    height: 60%;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.profileUsername {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.profileFirstName {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.profileLastName {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.profileEmail {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.divProfileButton {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.profileButton {
+    margin: 10px;
+    width: 81%;
+    height: 80%;
+    margin-top: 10px;
+    border-radius: 15px;
+    color:white;
+    background-color: rgb(53, 117, 255);
+}
+
+.profileButton:hover {
+    cursor: pointer;
+    background-color: rgb(80, 80, 255);
+    transition: .1s;
+}

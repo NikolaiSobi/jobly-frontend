@@ -1,0 +1,15 @@
+.companyCard {
+    width: 70%;
+    margin: 10px;
+    background-color: rgb(245, 245, 245);
+}
+
+.companyCard h3 {
+    font-weight: 500;
+}
+
+.companyCard:hover {
+    cursor: pointer;
+    color:rgb(99, 99, 255);
+}
+

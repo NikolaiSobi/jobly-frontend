@@ -1,0 +1,98 @@
+.signupContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+}
+
+.signupBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(133, 133, 133);
+    height: 45vh;
+    width: 30vw;
+    border-radius: 9px;
+}
+
+.signupBox div {
+    position: relative;
+    top: -20px
+}
+
+.signupH1 {
+    position: relative;
+    text-align: center;
+    top: -30px;
+}
+
+.signupBox label {
+    display: block;
+    font-weight: 700;
+}
+
+.signupBox input {
+    width: 80%;
+    height: 60%;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.signupUsername {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.signupPassword {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.signupFirstName {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.signupLastName {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.signupEmail {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.signupButtonDiv {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.signupButton {
+    margin: 10px;
+    width: 81%;
+    height: 80%;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: solid black 1px;
+    color:white;
+    background-color: rgb(53, 117, 255);
+}
+
+.signupButton:hover {
+    cursor: pointer;
+    background-color: rgb(80, 80, 255);
+    transition: .3s;
+}

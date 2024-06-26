@@ -1,0 +1,24 @@
+.homepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 50vh;
+  color: rgb(212, 212, 212);
+}
+
+.homepage button{
+  cursor: pointer;
+  color: white;
+  background-color: rgb(165, 109, 255);
+  border: 0;
+  border-radius: 5px;
+  margin: 10px;
+  height: 4vh;
+  width: 10vw;
+}
+
+.homepage button:hover{
+  background-color: rgb(134, 59, 255);
+  transition: .3s;
+}

@@ -1,0 +1,31 @@
+.companyDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.companyDetails{
+    color: rgb(212, 212, 212);
+    align-content: center;
+    text-align: center;
+}
+
+
+
+.companyDetails .jobCard  {
+    color: black;
+    text-align: left;
+}
+.companyDetails .jobCard  {
+    color: black;
+    text-align: left;
+    text-shadow: 100px;
+}
+
+.companyDetails .jobCard {
+    width: 50vw;
+    height: 15vh;
+}

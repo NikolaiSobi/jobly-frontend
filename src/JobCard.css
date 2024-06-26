@@ -1,0 +1,53 @@
+.jobCard {
+    width: 70%;
+    margin: 10px;
+    background-color: rgb(245, 245, 245);
+    position: relative;
+    text-indent: 10px;
+}
+
+.jobCard h3 {
+    font-weight: 500;
+}
+
+.jobCard p {
+    font-weight: 400;
+}
+
+
+.applyButton button {
+    position: relative;
+    color:white;
+    background-color: red;
+    font-size: medium;
+    font-weight: 700;
+    border: 0;
+    border-radius: 6px;
+    height: 40px;
+    width: 80px;
+}
+
+.applyButton button:hover {
+    cursor: pointer;
+    background-color: rgb(170, 0, 0);
+    transition: .1s;
+}
+
+.applyButton {
+    position: absolute;
+    right: 1%;
+    bottom: 10%;
+}
+
+.applyButton button[disabled] {
+    background-color: rgb(110, 110, 110);
+    opacity: .3;
+    pointer-events: none
+}
+
+.jobCard button[disabled] {
+    background-color: rgb(110, 110, 110);
+    opacity: .3;
+    pointer-events: none
+    
+}

@@ -1,0 +1,72 @@
+.header {
+    position: relative;
+    height: 60px;
+    background: grey;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    font-size: 26px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 2rem;
+    margin-top: .5rem;
+
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    top:15px;
+    right: 40px;
+    font-weight: 500;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* body {
+    background-color: grey;
+}
+
+.navbar {
+    color:white;
+    background-color: rgb(182, 165, 255);
+    height: 40px;
+    outline: auto;
+
+}
+
+
+
+.login {
+    color:black;
+    display: inline;
+    
+   
+   
+   
+}
+
+.login:hover {
+    cursor: pointer;
+}
+
+.signUp {
+    color: black;
+    display: inline;
+    
+    
+}
+
+.signUp:hover {
+    cursor: pointer;
+} */
