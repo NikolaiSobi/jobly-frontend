@@ -16,7 +16,7 @@ const Navbar = ({token}) => {
                 </>
                 : <>
                 <a href="/login">Login</a>
-                <a href="/signup">Sign up</a>
+                <a href="https://jobly-backend-pg4n.onrender.com/signup">Sign up</a>
                 </>}
 
                 
