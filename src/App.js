@@ -3,7 +3,7 @@ import Homepage from './Homepage';
 import Navbar from './Navbar';
 import api from "./api"
 import { useEffect, useState } from "react"
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
 import { jwtDecode } from "jwt-decode";
 import Login from './Login';
 import Signup from './Signup';
@@ -12,7 +12,9 @@ import CompanyDetails from './CompanyDetails';
 import Jobs from './Jobs';
 import JoblyApi from './api';
 import Profile from './Profile';
+
 function App() {
+  const navigate = useNavigate()
   const [errorMessage, setErrorMessage] = useState([])
   const[token, setToken] = useState('')
   const[currentUser, setCurrentUser] = useState({})
@@ -21,7 +23,7 @@ function App() {
     try {
       const res = await api.signup(obj)
       await login({username: obj.username, password: obj.password})
-      window.location.replace('http://localhost:3000/')
+      window.location.replace('https://jobly-1gfd.onrender.com/')
     } catch (error) {
       setErrorMessage(error)
     }
@@ -33,7 +35,7 @@ function App() {
       localStorage.setItem('token', res.token)
       setToken(res.token)
       JoblyApi.token = res.token
-      window.location.replace('http://localhost:3000/')
+      navigate('/')
       
     } catch (error) {
         setErrorMessage(error)
