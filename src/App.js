@@ -77,7 +77,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Navbar token={token}/>
+      <Navbar token={token} setToken={setToken} setCurrentUser={setCurrentUser}/>
 
       <div className='errors'>
       {errorMessage.map((error, idx) => <h3 key={idx}>{error}</h3>)}
