@@ -2,7 +2,7 @@ import React from "react";
 import "./Homepage.css"
 import { useNavigate } from "react-router-dom";
 
-const Homepage = ({ token, currentUser }) => {
+const Homepage = ({ currentUser }) => {
     let username
     const navigate = useNavigate()
     if (!currentUser || !currentUser.user || !currentUser.user.username) {
@@ -12,7 +12,7 @@ const Homepage = ({ token, currentUser }) => {
                     <h1>Jobly!</h1>
                     <h3>A place to find your dream job!</h3>
                     <div className="buttonDiv">
-                        <button onClick={() => navigate('/login')}>Login</button>
+                        <button >Login</button>
                         <button onClick={() => navigate('/signup')}>Signup</button>
                     </div>
                 </div>  
